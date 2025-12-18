@@ -8,6 +8,8 @@ TravelLoggerをご利用いただきありがとうございます。
 
 TravelLoggerは、GPS位置情報を使用して移動ルートを自動的に記録する旅行ログアプリです。
 
+**サポートページ:** [https://hac09.github.io/privacy-policy/TravelLogger/support](https://hac09.github.io/privacy-policy/TravelLogger/support)
+
 ## 主な機能
 
 - GPS位置情報による自動記録
