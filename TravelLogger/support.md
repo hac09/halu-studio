@@ -48,4 +48,4 @@ A: Pro版の機能です。Pro版を購入するか、広告削除プランを�
 
 ---
 
-© 2024 Halu Studio. All rights reserved.
+© 2025 Halu Studio. All rights reserved.
