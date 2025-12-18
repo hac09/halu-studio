@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # プライバシーポリシー
 
 Halu Studio（以下「当方」）は、本アプリ「TravelLogger」（以下「本アプリ」）の利用者の情報を以下のとおり取り扱います。
