@@ -1,0 +1,5 @@
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+header_pages: []
+footer_pages: []
