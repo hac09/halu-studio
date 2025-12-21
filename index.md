@@ -9,3 +9,4 @@ layout: default
 - [GPSロガー（TravelLogger）](./TravelLogger/)
   - [サポートページ](./TravelLogger/support)
 - [割勘アプリ（Divvy）](./divvy/)
+  - [サポートページ](./divvy/support)
