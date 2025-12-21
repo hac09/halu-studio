@@ -1,9 +1,89 @@
 ---
 layout: default
 ---
-# 割勘マスター サポート
+# 割勘マスター サポート / Divvy Support
 
-## アプリについて
+[English](#english) | [日本語](#japanese)
+
+---
+
+<a name="english"></a>
+## Support - Divvy (Bill Splitting App)
+
+### About the App
+
+"Divvy" is a simple and convenient app for splitting bills at restaurants, parties, and social gatherings.
+
+### Main Features
+
+- **Equal Split**: Automatically calculates per-person amount from total and number of people
+- **Custom Split**: Set different payment amounts for different groups (e.g., managers, newcomers)
+- **Receipt Scanning**: Scan receipts with your camera to automatically recognize the total amount
+- **History**: Save and reuse past calculations
+- **Share Results**: Easily share calculation results via messages or social media
+
+### How to Use
+
+#### Basic Bill Splitting
+
+1. Enter the total amount
+2. Select the number of people
+3. Choose rounding unit (1, 10, 100, 500, or 1000 yen)
+4. The app automatically calculates the amount per person
+
+#### Custom Payment Groups
+
+1. Select the "Custom" tab
+2. Tap "Add Group"
+3. Enter group name, number of people, and amount per person
+4. The remaining people's amount is automatically calculated
+
+#### Receipt Scanning
+
+1. Tap the camera button next to the amount input field
+2. Take a photo of your receipt
+3. The total amount is automatically recognized and entered
+
+### FAQ
+
+**Q: Is the app free?**
+A: Yes, it's free to use. Ads are displayed, but you can remove them with an in-app purchase (¥120).
+
+**Q: Where is my data stored?**
+A: All data is stored only on your device. Nothing is sent to external servers.
+
+**Q: How can I improve receipt scanning accuracy?**
+A: Take photos in good lighting with the entire receipt clearly visible. Ensure the total amount section is especially clear.
+
+**Q: Can I save calculation results?**
+A: Yes, use the "Save to History" button. Saved history can be viewed and reused later.
+
+**Q: How do I delete my data?**
+A: Delete individual items from the History screen. To delete all data, uninstall the app.
+
+### System Requirements
+
+- iOS 15.0 or later
+- Compatible with iPhone and iPad
+
+### Contact
+
+For questions, bug reports, or feature requests, please contact:
+
+**Email:** halustudio09@gmail.com
+
+We typically respond within 1-2 business days.
+
+### Privacy Policy
+
+View our [Privacy Policy](./index.html)
+
+---
+
+<a name="japanese"></a>
+## サポート - 割勘マスター
+
+### アプリについて
 
 「割勘マスター」は、飲み会や食事会での割勘計算を簡単に行えるアプリです。
 
@@ -73,5 +153,8 @@ A: 履歴画面から個別に削除できます。すべてのデータを削�
 
 ---
 
+Last Updated: December 21, 2024
 最終更新日: 2024年12月21日
+
+Developer: Halu Studio
 開発: Halu Studio
