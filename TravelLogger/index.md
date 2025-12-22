@@ -186,4 +186,12 @@ layout: default
 
 ---
 
+## サポートページ / Support Page
+
+**日本語**: サポートページは[こちら](https://hac09.github.io/privacy-policy/TravelLogger/support)をご覧ください。
+
+**English**: Please see our [Support Page](https://hac09.github.io/privacy-policy/TravelLogger/support) here.
+
+---
+
 **最終更新 / Last Updated:** 2025年12月21日 / December 21, 2025

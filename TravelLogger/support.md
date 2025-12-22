@@ -17,7 +17,8 @@ TravelLoggerをご利用いただきありがとうございます。
 - リアルタイム地図表示 / Real-time map display
 - 移動距離・時間・速度の計算 / Calculate distance, time, and speed
 - 標高データの記録 / Record altitude data
-- GPX/CSV/PDFエクスポート / GPX/CSV/PDF export
+- GPX/CSV/PDFエクスポート (Pro) / GPX/CSV/PDF export (Pro)
+- GPXインポート (Pro) / GPX import (Pro)
 
 ## よくある質問 / FAQ
 
@@ -45,6 +46,17 @@ TravelLoggerをご利用いただきありがとうございます。
 **日本語**: Pro版の機能です。Pro版を購入してください。
 
 **English**: This is a Pro version feature. Please purchase the Pro version.
+
+### Q: GPXファイルをインポートできますか？ / Can I import GPX files?
+**日本語**: Pro版では、記録一覧画面の「インポート」ボタンからGPXファイルをインポートできます。バックアップからの復元に便利です。
+
+**English**: In the Pro version, you can import GPX files using the "Import" button on the log list screen. This is useful for restoring from backups.
+
+## プライバシーポリシー / Privacy Policy
+
+**日本語**: プライバシーポリシーは[こちら](https://hac09.github.io/privacy-policy/TravelLogger/)をご覧ください。
+
+**English**: Please see our [Privacy Policy](https://hac09.github.io/privacy-policy/TravelLogger/) here.
 
 ## お問い合わせ / Contact
 
@@ -79,14 +91,6 @@ This app provides features to record and save data such as GPS location and phot
 - **Backup Recommendation**: We strongly recommend backing up important data regularly. Please use the GPX/CSV export feature.
 - **Location Accuracy**: GPS location accuracy may vary depending on environmental factors such as weather conditions, buildings, and tunnels.
 - **Battery Consumption**: Background location tracking consumes battery power. Please be aware when recording for extended periods.
-
-## プライバシーポリシー / Privacy Policy
-
-**日本語**: プライバシーポリシーは以下のページをご確認ください：
-
-**English**: Please refer to our Privacy Policy:
-
-[プライバシーポリシー / Privacy Policy](https://hac09.github.io/privacy-policy/TravelLogger/)
 
 ---
 
