@@ -181,8 +181,9 @@ layout: default
 
 **English**: For inquiries regarding this privacy policy, please contact:
 
-- **メールアドレス / Email:** halustudio09@gmail.com
-- **開発元 / Developer:** Halu Studio
+**メールアドレス / Email**: halustudio09@gmail.com
+
+**開発元 / Developer**: Halu Studio
 
 ---
 
@@ -194,4 +195,4 @@ layout: default
 
 ---
 
-**最終更新 / Last Updated:** 2025年12月21日 / December 21, 2025
+**最終更新 / Last Updated**: 2025年12月21日 / December 21, 2025
