@@ -169,4 +169,4 @@ Please see our privacy policy:
 
 ---
 
-© 2025 Halu Studio. All rights reserved.
+© 2026 Halu Studio. All rights reserved.
