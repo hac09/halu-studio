@@ -222,4 +222,4 @@ For inquiries regarding this Privacy Policy, please contact:
 
 ---
 
-**最終更新日 / Last Updated：** 2024年12月24日 / December 24, 2024
+**最終更新日 / Last Updated：** 2025年12月25日 / December 25, 2025
