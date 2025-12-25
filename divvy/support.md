@@ -115,6 +115,6 @@ View our [Privacy Policy](./index.html)
 
 ---
 
-**最終更新日 / Last Updated:** December 21, 2025
-
 **開発 / Developer:** Halu Studio
+
+© 2026 Halu Studio. All rights reserved.

@@ -3,8 +3,6 @@ layout: default
 ---
 # プライバシーポリシー / Privacy Policy
 
-**施行日 / Effective Date:** 2025年12月21日 / December 21, 2025
-
 ---
 
 ## 1. 基本方針 / Basic Policy
@@ -188,6 +186,6 @@ If you have any questions about this Privacy Policy, please contact us at:
 
 ---
 
-**最終更新日 / Last Updated:** December 21, 2025
-
 **開発 / Developer:** Halu Studio
+
+© 2026 Halu Studio. All rights reserved.

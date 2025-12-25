@@ -195,4 +195,4 @@ layout: default
 
 ---
 
-**最終更新 / Last Updated**: 2025年12月21日 / December 21, 2025
+© 2026 Halu Studio. All rights reserved.
