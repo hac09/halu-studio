@@ -110,4 +110,4 @@ This app provides features to record and save data such as GPS location and phot
 
 ---
 
-© 2025 Halu Studio. All rights reserved.
+© 2026 Halu Studio. All rights reserved.
