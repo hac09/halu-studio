@@ -5,6 +5,12 @@
 
 .page-header {
   background-image: linear-gradient(120deg, #155799, #159957);
+
+  .site-logo {
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
 }
 
 .main-content {
