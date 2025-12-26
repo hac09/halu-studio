@@ -13,7 +13,7 @@ GPS位置情報で移動ルートを自動記録する旅行ログアプリ
 
 - [プライバシーポリシー](./TravelLogger/)
 - [サポートページ](./TravelLogger/support)
-- [App Store](https://apps.apple.com/app/id6740090664)
+- [App Store](https://apps.apple.com/app/travellogger/id6756373455)
 
 ### 💰 Divvy
 シンプルで使いやすい割勘計算アプリ
