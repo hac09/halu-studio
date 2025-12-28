@@ -19,6 +19,7 @@
 - リアルタイム地図表示
 - 移動距離・時間・速度の計算
 - 標高データの記録
+- 記録カレンダー：月別の記録を視覚的に確認
 - GPX/CSV/PDFエクスポート (Pro)
 - GPXインポート (Pro)
 
@@ -27,6 +28,7 @@
 - Real-time map display
 - Calculate distance, time, and speed
 - Record altitude data
+- Record calendar: Visual monthly record overview
 - GPX/CSV/PDF export (Pro)
 - GPX import (Pro)
 
@@ -67,6 +69,12 @@
 **日本語**: Pro版では、記録一覧画面の「インポート」ボタンからGPXファイルをインポートできます。バックアップからの復元に便利です。
 
 **English**: In the Pro version, you can import GPX files using the "Import" button on the log list screen. This is useful for restoring from backups.
+
+### Q: 記録カレンダーの見方は？ / How to use the record calendar?
+
+**日本語**: メニューから「記録カレンダー」を選択すると、月別のカレンダーで記録のある日を確認できます。各日付には記録件数と総移動距離が表示され、タップするとその日の記録詳細を見ることができます。週間・月間の統計も表示されます。
+
+**English**: Select "Record Calendar" from the menu to view a monthly calendar showing days with records. Each date displays the number of records and total distance. Tap a date to view detailed records for that day. Weekly and monthly statistics are also displayed.
 
 ## プライバシーポリシー / Privacy Policy
 
