@@ -72,9 +72,9 @@
 
 ### Q: 記録カレンダーの見方は？ / How to use the record calendar?
 
-**日本語**: メニューから「記録カレンダー」を選択すると、月別のカレンダーで記録のある日を確認できます。各日付には記録件数と総移動距離が表示され、タップするとその日の記録詳細を見ることができます。週間・月間の統計も表示されます。
+**日本語**: メニューから「記録カレンダー」を選択すると、月別のカレンダーで記録のある日を確認できます。各日付には記録件数と総移動距離が表示され、タップするとその日の記録詳細を見ることができます。日付をダブルタップすると、その週の週間統計と記録一覧を表示できます。週間・月間の統計も表示されます。
 
-**English**: Select "Record Calendar" from the menu to view a monthly calendar showing days with records. Each date displays the number of records and total distance. Tap a date to view detailed records for that day. Weekly and monthly statistics are also displayed.
+**English**: Select "Record Calendar" from the menu to view a monthly calendar showing days with records. Each date displays the number of records and total distance. Tap a date to view detailed records for that day. Double-tap a date to view weekly statistics and record list for that week. Weekly and monthly statistics are also displayed.
 
 ## プライバシーポリシー / Privacy Policy
 
