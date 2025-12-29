@@ -51,11 +51,23 @@ layout: default
 - 広告識別子（IDFA）
 - デバイス情報（機種・OSバージョン）
 - アプリの利用状況
+- ※広告削除機能を購入した場合、広告は表示されず、広告関連の情報収集も行われません
 
 **English**:
 - Advertising identifier (IDFA)
 - Device information (model, OS version)
 - App usage statistics
+- *If you purchase the ad removal feature, ads will not be displayed and no ad-related information will be collected
+
+### 2.5 アプリ内課金情報 / In-App Purchase Information
+
+**日本語**:
+- 広告削除機能の購入状態
+- この情報は端末内にのみ保存され、外部サーバーへの送信は一切行いません
+
+**English**:
+- Purchase status of ad removal feature
+- This information is stored only on your device and is never transmitted to external servers
 
 ## 3. 利用目的 / Purpose of Use
 
@@ -106,28 +118,54 @@ layout: default
 ### 3.5 広告表示 / Ad Display
 
 **日本語**:
-- Google AdMobを使用して広告を表示します
+- Google AdMobを使用して広告を表示します（広告削除機能を購入していない場合のみ）
 - 広告配信のため、広告識別子やデバイス情報が使用されます
+- 広告削除機能を購入すると、広告は表示されず、広告関連の情報収集も停止されます
 
 **English**:
-- Displaying ads using Google AdMob
+- Displaying ads using Google AdMob (only if ad removal feature is not purchased)
 - Advertising identifiers and device information are used for ad delivery
+- When the ad removal feature is purchased, ads are not displayed and ad-related information collection is stopped
+
+### 3.6 アプリ内課金 / In-App Purchase
+
+**日本語**:
+- 広告削除機能の提供と管理
+- 購入状態の保存と復元
+- 購入処理はAppleのApp Storeを通じて行われます
+
+**English**:
+- Providing and managing the ad removal feature
+- Saving and restoring purchase status
+- Purchase processing is handled through Apple's App Store
 
 ## 4. 第三者提供 / Third-Party Services
 
-**日本語**: 本アプリは、広告配信のために以下の第三者サービスを利用します。
+**日本語**: 本アプリは、以下の第三者サービスを利用します。
 
-**English**: This app uses the following third-party services for ad delivery:
+**English**: This app uses the following third-party services:
 
-### 4.1 Google AdMob
+### 4.1 Google AdMob（広告削除機能未購入時のみ / Only When Ad Removal Not Purchased）
 
 **日本語**:
 - 広告配信のために使用します
+- 広告削除機能を購入すると、Google AdMobは使用されません
 - Google AdMobのプライバシーポリシー：[https://policies.google.com/privacy](https://policies.google.com/privacy)
 
 **English**:
 - Used for ad delivery
+- Google AdMob is not used when ad removal feature is purchased
 - Google AdMob Privacy Policy: [https://policies.google.com/privacy](https://policies.google.com/privacy)
+
+### 4.2 Apple StoreKit
+
+**日本語**:
+- アプリ内課金（広告削除機能）の処理に使用します
+- Appleのプライバシーポリシー：[https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
+
+**English**:
+- Used for in-app purchase (ad removal feature) processing
+- Apple Privacy Policy: [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
 
 **日本語**: これらのサービスは、独自のプライバシーポリシーに基づいて情報を取得・利用します。詳細は各サービスのプライバシーポリシーをご確認ください。上記以外の第三者への情報提供は一切行いません。
 
@@ -167,13 +205,31 @@ layout: default
 - Collected information is managed with appropriate security measures
 - Reasonable measures are implemented against risks such as unauthorized access, loss, destruction, alteration, and leakage
 
-## 6. プライバシーポリシーの変更 / Changes to Privacy Policy
+## 6. 広告削除機能について / About Ad Removal Feature
+
+**日本語**:
+- 広告削除機能を購入すると、アプリ内のすべての広告が非表示になります
+- 広告削除後は、広告識別子やデバイス情報などの広告関連情報の収集は行われません
+- 購入状態は端末内にのみ保存され、外部サーバーへの送信は一切行いません
+- 購入処理はAppleのApp Storeを通じて安全に行われます
+
+**English**:
+- When you purchase the ad removal feature, all ads in the app will be hidden
+- After ad removal, no ad-related information such as advertising identifiers or device information will be collected
+- Purchase status is stored only on your device and is never transmitted to external servers
+- Purchase processing is securely handled through Apple's App Store
+
+## 7. プライバシーポリシーの変更 / Changes to Privacy Policy
 
 **日本語**: 当方は、必要に応じて本プライバシーポリシーを変更することがあります。変更後のプライバシーポリシーは、本ページに掲載された時点で効力を生じるものとします。
 
+**最終更新日 / Last Updated**: 2025年12月
+
 **English**: We may change this privacy policy as necessary. The updated privacy policy will take effect when posted on this page.
 
-## 7. お問い合わせ / Contact
+**Last Updated**: December 2025
+
+## 8. お問い合わせ / Contact
 
 **日本語**: 本プライバシーポリシーに関するお問い合わせは、以下の連絡先までお願いいたします。
 
