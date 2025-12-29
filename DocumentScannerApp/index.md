@@ -1,9 +1,7 @@
 ---
 layout: default
-title: Privacy Policy - 書類スキャナー
 ---
-
-# Privacy Policy / プライバシーポリシー
+# プライバシーポリシー / Privacy Policy
 
 **Last Updated / 最終更新日: December 29, 2025 / 2025年12月29日**
 
@@ -63,7 +61,7 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 
 ### Contact Us
 
-If you have any questions about this Privacy Policy, please contact us through our [Support Page](./support.html).
+If you have any questions about this Privacy Policy, please contact us through our [Support Page](./support).
 
 ---
 
@@ -121,4 +119,4 @@ Googleのデータ使用方法の詳細については、[Googleのプライバ�
 
 ### お問い合わせ
 
-本プライバシーポリシーに関するご質問がある場合は、[サポートページ](./support.html)からお問い合わせください。
+本プライバシーポリシーに関するご質問がある場合は、[サポートページ](./support)からお問い合わせください。

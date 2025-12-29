@@ -1,9 +1,7 @@
 ---
 layout: default
-title: Support - 書類スキャナー
 ---
-
-# Support / サポート
+# サポート / Support
 
 ---
 
@@ -75,7 +73,7 @@ If you have any questions, feedback, or issues:
 
 ### Privacy Policy
 
-Please read our [Privacy Policy](./privacy-policy.html) to understand how we handle your information.
+Please read our [Privacy Policy](./) to understand how we handle your information.
 
 ---
 
@@ -147,4 +145,4 @@ A: アプリを無料で提供するために広告を表示しています。�
 
 ### プライバシーポリシー
 
-情報の取り扱いについて理解するため、[プライバシーポリシー](./privacy-policy.html)をお読みください。
+情報の取り扱いについて理解するため、[プライバシーポリシー](./)をお読みください。
