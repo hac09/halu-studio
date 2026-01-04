@@ -100,6 +100,16 @@ body {
 }
 
 // アプリアイコン
+.app-icon-link {
+  display: block;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
 .app-icon {
   margin-bottom: 20px;
   width: 100px;
@@ -114,6 +124,12 @@ body {
     border-radius: 22px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     object-fit: cover;
+    transition: box-shadow 0.2s ease;
+  }
+
+  a:hover & img,
+  .app-icon-link:hover & img {
+    box-shadow: 0 6px 15px rgba(52, 152, 219, 0.3);
   }
 }
 

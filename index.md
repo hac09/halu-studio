@@ -9,15 +9,16 @@ layout: default
 <div class="app-grid">
 
 <div class="app-card">
-  <div class="app-icon">
-    <img src="{{ '/assets/images/travellogger-icon.png' | relative_url }}" alt="TravelLogger">
-  </div>
+  <a href="https://apps.apple.com/app/travellogger/id6756373455" class="app-icon-link" target="_blank">
+    <div class="app-icon">
+      <img src="{{ '/assets/images/travellogger-icon.png' | relative_url }}" alt="TravelLogger">
+    </div>
+  </a>
   <h3 class="app-name">TravelLogger</h3>
   <p class="app-desc">GPS位置情報で移動ルートを自動記録する旅行ログアプリ</p>
   <ul class="app-links">
     <li><a href="./TravelLogger/" class="app-link">プライバシーポリシー</a></li>
     <li><a href="./TravelLogger/support" class="app-link">サポート</a></li>
-    <li><a href="https://apps.apple.com/app/travellogger/id6756373455" class="app-link">App Store</a></li>
   </ul>
 </div>
 
