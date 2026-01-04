@@ -112,7 +112,7 @@ const translations = {
         'disclaimer-7': 'バックグラウンドでの位置情報記録は、バッテリーを消費します。長時間の記録時はご注意ください。',
         
         // Divvy (割勘マスター)
-        'divvy-app-name': 'Divvy',
+        'divvy-app-name': '割勘マスター',
         'divvy-privacy-title': 'プライバシーポリシー',
         'divvy-section-1': '1. 基本方針',
         'divvy-section-1-content': '「割勘マスター」（以下「本アプリ」）は、ユーザーのプライバシーを尊重し、個人情報の保護に努めます。',
