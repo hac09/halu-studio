@@ -571,10 +571,8 @@ const translations = {
         'dream-disclaimer-3': 'データの消失、破損、その他の理由によって生じた損害について、開発者は一切の責任を負いません。',
         'dream-disclaimer-4': 'App Storeからアプリが削除された場合、または配信が終了した場合でも、開発者は一切の責任を負いません。',
         'dream-disclaimer-5': '本アプリの使用により生じたいかなる直接的または間接的損害についても、開発者は責任を負いません。',
-        'dream-disclaimer-6': '重要なデータは定期的にバックアップを取ることを強く推奨します。',
         'dream-contact-title': 'お問い合わせ',
         'dream-contact-intro': 'ご質問やバグ報告は、以下のメールアドレスまでお願いします。',
-        'dream-contact-response': '通常、1-2営業日以内に返信いたします。',
         'dream-privacy-link': 'プライバシーポリシーは<a href="./index.html">こちら</a>をご覧ください。',
     },
     'en': {
@@ -1148,10 +1146,8 @@ const translations = {
         'dream-disclaimer-3': 'The developer assumes no responsibility for any damage caused by data loss, corruption, or other reasons.',
         'dream-disclaimer-4': 'The developer assumes no responsibility if the app is removed from the App Store or distribution ends.',
         'dream-disclaimer-5': 'The developer is not liable for any direct or indirect damage caused by the use of this app.',
-        'dream-disclaimer-6': 'We strongly recommend backing up important data regularly.',
         'dream-contact-title': 'Contact',
         'dream-contact-intro': 'For questions or bug reports, please contact:',
-        'dream-contact-response': 'We typically respond within 1-2 business days.',
         'dream-privacy-link': 'Please see our <a href="./index.html">Privacy Policy</a> here.',
     },
     'ko': {
@@ -1725,10 +1721,8 @@ const translations = {
         'dream-disclaimer-3': '데이터 손실, 손상 또는 기타 이유로 인한 손해에 대해 개발자는 책임을 지지 않습니다.',
         'dream-disclaimer-4': 'App Store에서 앱이 제거되거나 배포가 종료되어도 개발자는 책임을 지지 않습니다.',
         'dream-disclaimer-5': '본 앱 사용으로 인한 직접적 또는 간접적 손해에 대해 개발자는 책임을 지지 않습니다.',
-        'dream-disclaimer-6': '중요한 데이터는 정기적으로 백업하는 것을 강력히 권장합니다.',
         'dream-contact-title': '문의',
         'dream-contact-intro': '질문이나 버그 보고는 다음으로 연락하십시오:',
-        'dream-contact-response': '일반적으로 1-2 영업일 이내에 답변드립니다.',
         'dream-privacy-link': '개인정보 보호정책은 <a href="./index.html">여기</a>를 참조하십시오.',
     },
     'zh-Hans': {
@@ -2302,10 +2296,8 @@ const translations = {
         'dream-disclaimer-3': '开发者对因数据丢失、损坏或其他原因造成的任何损害概不负责。',
         'dream-disclaimer-4': '即使应用从App Store中删除或停止分发，开发者也不承担责任。',
         'dream-disclaimer-5': '开发者对因使用本应用而造成的任何直接或间接损害概不负责。',
-        'dream-disclaimer-6': '我们强烈建议定期备份重要数据。',
         'dream-contact-title': '联系方式',
         'dream-contact-intro': '如有问题或错误报告，请联系：',
-        'dream-contact-response': '我们通常会在1-2个工作日内回复。',
         'dream-privacy-link': '请在此处查看我们的<a href="./index.html">隐私政策</a>。',
     },
     'zh-Hant': {
@@ -2879,10 +2871,8 @@ const translations = {
         'dream-disclaimer-3': '開發者對因資料遺失、損壞或其他原因造成的任何損害概不負責。',
         'dream-disclaimer-4': '即使應用程式從App Store中刪除或停止分發，開發者也不承擔責任。',
         'dream-disclaimer-5': '開發者對因使用本應用而造成的任何直接或間接損害概不負責。',
-        'dream-disclaimer-6': '我們強烈建議定期備份重要資料。',
         'dream-contact-title': '聯絡方式',
         'dream-contact-intro': '如有問題或錯誤報告，請聯絡：',
-        'dream-contact-response': '我們通常會在1-2個工作日內回覆。',
         'dream-privacy-link': '請在此處查看我們的<a href="./index.html">隱私政策</a>。',
     }
 };

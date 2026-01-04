@@ -129,7 +129,6 @@ layout: default
       <li data-i18n="dream-disclaimer-3">データの消失、破損、その他の理由によって生じた損害について、開発者は一切の責任を負いません。</li>
       <li data-i18n="dream-disclaimer-4">App Storeからアプリが削除された場合、または配信が終了した場合でも、開発者は一切の責任を負いません。</li>
       <li data-i18n="dream-disclaimer-5">本アプリの使用により生じたいかなる直接的または間接的損害についても、開発者は責任を負いません。</li>
-      <li data-i18n="dream-disclaimer-6">重要なデータは定期的にバックアップを取ることを強く推奨します。</li>
     </ul>
   </section>
 
@@ -137,7 +136,6 @@ layout: default
     <h2 data-i18n="dream-contact-title">お問い合わせ</h2>
     <p data-i18n="dream-contact-intro">ご質問やバグ報告は、以下のメールアドレスまでお願いします。</p>
     <p><strong data-i18n="email-label">メールアドレス:</strong> halustudio09@gmail.com</p>
-    <p data-i18n="dream-contact-response">通常、1-2営業日以内に返信いたします。</p>
   </section>
 
   <section>
