@@ -9,7 +9,9 @@ layout: default
 <div class="app-grid">
 
 <div class="app-card">
-  <div class="app-icon">📍</div>
+  <div class="app-icon">
+    <img src="{{ '/assets/images/travellogger-icon.png' | relative_url }}" alt="TravelLogger">
+  </div>
   <h3 class="app-name">TravelLogger</h3>
   <p class="app-desc">GPS位置情報で移動ルートを自動記録する旅行ログアプリ</p>
   <ul class="app-links">
@@ -20,7 +22,9 @@ layout: default
 </div>
 
 <div class="app-card">
-  <div class="app-icon">🌙</div>
+  <div class="app-icon">
+    <img src="{{ '/assets/images/dreaminsight-icon.png' | relative_url }}" alt="Dream Insight Pro">
+  </div>
   <h3 class="app-name">Dream Insight Pro</h3>
   <p class="app-desc">AI技術と心理学理論を融合した夢分析＆メンタルケアアプリ</p>
   <ul class="app-links">
@@ -30,7 +34,9 @@ layout: default
 </div>
 
 <div class="app-card">
-  <div class="app-icon">⏰</div>
+  <div class="app-icon">
+    <img src="{{ '/assets/images/attendance-icon.png' | relative_url }}" alt="出退勤記録">
+  </div>
   <h3 class="app-name">出退勤記録</h3>
   <p class="app-desc">シンプルで使いやすい出退勤管理アプリ</p>
   <ul class="app-links">
@@ -40,7 +46,9 @@ layout: default
 </div>
 
 <div class="app-card">
-  <div class="app-icon">📄</div>
+  <div class="app-icon">
+    <img src="{{ '/assets/images/scanner-icon.png' | relative_url }}" alt="書類スキャナー">
+  </div>
   <h3 class="app-name">書類スキャナー</h3>
   <p class="app-desc">カメラで撮影した書類をPDF化するスキャナーアプリ</p>
   <ul class="app-links">
@@ -50,7 +58,9 @@ layout: default
 </div>
 
 <div class="app-card">
-  <div class="app-icon">💰</div>
+  <div class="app-icon">
+    <img src="{{ '/assets/images/divvy-icon.png' | relative_url }}" alt="割勘マスター">
+  </div>
   <h3 class="app-name">割勘マスター</h3>
   <p class="app-desc">シンプルで使いやすい割勘計算アプリ</p>
   <ul class="app-links">
