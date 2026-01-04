@@ -6,33 +6,57 @@ layout: default
 
 ## アプリ一覧
 
-### 📍 TravelLogger
-GPS位置情報で移動ルートを自動記録する旅行ログアプリ
+<div class="app-grid">
 
-- [プライバシーポリシー](./TravelLogger/)
-- [サポートページ](./TravelLogger/support)
-- [App Store](https://apps.apple.com/app/travellogger/id6756373455)
+<div class="app-card">
+  <div class="app-icon">📍</div>
+  <h3 class="app-name">TravelLogger</h3>
+  <p class="app-desc">GPS位置情報で移動ルートを自動記録する旅行ログアプリ</p>
+  <ul class="app-links">
+    <li><a href="./TravelLogger/" class="app-link">プライバシーポリシー</a></li>
+    <li><a href="./TravelLogger/support" class="app-link">サポート</a></li>
+    <li><a href="https://apps.apple.com/app/travellogger/id6756373455" class="app-link">App Store</a></li>
+  </ul>
+</div>
 
-### 🌙 Dream Insight Pro
-AI技術と心理学理論を融合した夢分析＆メンタルケアアプリ
+<div class="app-card">
+  <div class="app-icon">🌙</div>
+  <h3 class="app-name">Dream Insight Pro</h3>
+  <p class="app-desc">AI技術と心理学理論を融合した夢分析＆メンタルケアアプリ</p>
+  <ul class="app-links">
+    <li><a href="./DreamInsightPro/" class="app-link">プライバシーポリシー</a></li>
+    <li><a href="./DreamInsightPro/support" class="app-link">サポート</a></li>
+  </ul>
+</div>
 
-- [プライバシーポリシー](./DreamInsightPro/)
-- [サポートページ](./DreamInsightPro/support)
+<div class="app-card">
+  <div class="app-icon">⏰</div>
+  <h3 class="app-name">出退勤記録</h3>
+  <p class="app-desc">シンプルで使いやすい出退勤管理アプリ</p>
+  <ul class="app-links">
+    <li><a href="./AttendanceApp/" class="app-link">プライバシーポリシー</a></li>
+    <li><a href="./AttendanceApp/support" class="app-link">サポート</a></li>
+  </ul>
+</div>
 
-### ⏰ 出退勤記録
-シンプルで使いやすい出退勤管理アプリ
+<div class="app-card">
+  <div class="app-icon">📄</div>
+  <h3 class="app-name">書類スキャナー</h3>
+  <p class="app-desc">カメラで撮影した書類をPDF化するスキャナーアプリ</p>
+  <ul class="app-links">
+    <li><a href="./DocumentScannerApp/" class="app-link">プライバシーポリシー</a></li>
+    <li><a href="./DocumentScannerApp/support" class="app-link">サポート</a></li>
+  </ul>
+</div>
 
-- [プライバシーポリシー](./AttendanceApp/)
-- [サポートページ](./AttendanceApp/support)
+<div class="app-card">
+  <div class="app-icon">💰</div>
+  <h3 class="app-name">割勘マスター</h3>
+  <p class="app-desc">シンプルで使いやすい割勘計算アプリ</p>
+  <ul class="app-links">
+    <li><a href="./divvy/" class="app-link">プライバシーポリシー</a></li>
+    <li><a href="./divvy/support" class="app-link">サポート</a></li>
+  </ul>
+</div>
 
-### 📄 書類スキャナー
-カメラで撮影した書類をPDF化するスキャナーアプリ
-
-- [プライバシーポリシー](./DocumentScannerApp/)
-- [サポートページ](./DocumentScannerApp/support)
-
-### 💰 割勘マスター
-シンプルで使いやすい割勘計算アプリ
-
-- [プライバシーポリシー](./divvy/)
-- [サポートページ](./divvy/support)
+</div>

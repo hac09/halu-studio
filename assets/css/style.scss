@@ -3,14 +3,20 @@
 
 @import "{{ site.theme }}";
 
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
 .page-header {
   background-image: linear-gradient(120deg, #155799, #159957);
-  padding: 2rem 1rem;
+  padding: 3rem 1rem;
+  text-align: center;
 
   .site-logo {
     max-width: 300px;
     height: auto;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     background: white;
     padding: 1rem;
     border-radius: 8px;
@@ -18,45 +24,158 @@
 }
 
 .main-content {
-  h1, h2, h3 {
-    color: #155799;
-  }
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 20px;
 
-  h3 {
-    padding: 0.5em 0;
-    border-bottom: 2px solid #159957;
-  }
+  // セクションタイトル
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #2c3e50;
+    position: relative;
 
-  a {
-    color: #155799;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
+    &::after {
+      content: "";
+      display: block;
+      width: 50px;
+      height: 3px;
+      background-color: #3498db;
+      margin: 10px auto 0;
     }
   }
 
-  ul {
-    list-style: none;
-    padding-left: 0;
+  // 導入文
+  > p:first-of-type {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 50px;
+  }
 
-    li {
-      padding: 0.3em 0;
-      padding-left: 1.5em;
+  // アプリカードのグリッド
+  h3 {
+    display: none; // アプリ名の見出しは非表示（カード内で表示）
+  }
 
-      &:before {
-        content: "▸";
-        color: #159957;
-        font-weight: bold;
-        display: inline-block;
-        width: 1em;
-        margin-left: -1em;
-      }
+  > h3 + p,
+  > h3 + p + ul {
+    display: none; // 元のリストスタイルを非表示
+  }
+}
+
+// アプリカードのコンテナ
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+// カードのデザイン
+.app-card {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #eee;
+
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(52, 152, 219, 0.2);
+    border-color: #3498db;
+
+    .app-link {
+      background-color: #3498db;
+      color: white;
     }
   }
 }
 
+// アプリアイコン
+.app-icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 22px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+// アプリ名
+.app-name {
+  font-size: 1.5rem;
+  margin: 0 0 10px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+// アプリ説明
+.app-desc {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+// リンクリスト
+.app-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  li {
+    margin: 0;
+    padding: 0;
+
+    &:before {
+      display: none;
+    }
+  }
+}
+
+// ボタンスタイル
+.app-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+  border: 1px solid #3498db;
+  padding: 8px 20px;
+  border-radius: 50px;
+  transition: all 0.2s;
+  font-size: 0.9rem;
+
+  &:hover {
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+  }
+}
+
 .project-tagline {
-  opacity: 0.8;
+  opacity: 0.9;
   font-size: 1.2em;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 3rem;
+  border-top: 1px solid #eee;
 }
