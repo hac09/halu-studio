@@ -181,7 +181,6 @@ const translations = {
         'divvy-requirements-item-2': 'iPhone、iPad対応',
         'divvy-contact-title': 'お問い合わせ',
         'divvy-contact-intro': 'アプリに関するご質問、不具合報告、ご要望などは、以下のメールアドレスまでお気軽にお問い合わせください。',
-        'divvy-contact-response': '通常、1-2営業日以内に返信いたします。',
         'divvy-privacy-link': 'プライバシーポリシーは<a href="./index.html">こちら</a>をご覧ください。',
         
         // AttendanceApp (出退勤記録)
@@ -756,7 +755,6 @@ const translations = {
         'divvy-requirements-item-2': 'Compatible with iPhone and iPad',
         'divvy-contact-title': 'Contact',
         'divvy-contact-intro': 'For questions, bug reports, or feature requests, please contact:',
-        'divvy-contact-response': 'We typically respond within 1-2 business days.',
         'divvy-privacy-link': 'View our <a href="./index.html">Privacy Policy</a>',
         
         // AttendanceApp
@@ -1331,7 +1329,6 @@ const translations = {
         'divvy-requirements-item-2': 'iPhone 및 iPad 지원',
         'divvy-contact-title': '문의',
         'divvy-contact-intro': '앱에 대한 질문, 버그 보고 또는 기능 요청은 다음으로 연락하십시오:',
-        'divvy-contact-response': '일반적으로 1-2 영업일 이내에 응답합니다.',
         'divvy-privacy-link': '<a href="./index.html">개인정보 보호정책</a> 보기',
         
         // AttendanceApp
@@ -1906,7 +1903,6 @@ const translations = {
         'divvy-requirements-item-2': '兼容iPhone和iPad',
         'divvy-contact-title': '联系方式',
         'divvy-contact-intro': '如有问题、错误报告或功能请求，请联系：',
-        'divvy-contact-response': '我们通常在1-2个工作日内回复。',
         'divvy-privacy-link': '查看我们的<a href="./index.html">隐私政策</a>',
         
         // AttendanceApp
@@ -2481,7 +2477,6 @@ const translations = {
         'divvy-requirements-item-2': '相容iPhone和iPad',
         'divvy-contact-title': '聯絡方式',
         'divvy-contact-intro': '如有問題、錯誤報告或功能請求，請聯絡：',
-        'divvy-contact-response': '我們通常在1-2個工作日內回覆。',
         'divvy-privacy-link': '查看我們的<a href="./index.html">隱私政策</a>',
         
         // AttendanceApp
