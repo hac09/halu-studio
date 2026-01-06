@@ -54,8 +54,8 @@ body {
     margin-bottom: 50px;
   }
 
-  // アプリカードのグリッド
-  h3 {
+  // アプリカードのグリッド（直接のh3のみ非表示）
+  > h3 {
     display: none; // アプリ名の見出しは非表示（カード内で表示）
   }
 
@@ -141,18 +141,17 @@ body {
 
 // アプリ名（アイコンの上）
 .app-name-top {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   margin: 0 0 15px;
   font-weight: bold;
   color: #2c3e50;
+  display: block;
+  line-height: 1.3;
 }
 
-// アプリ名（アイコンの下、従来の位置）
+// アプリ名（アイコンの下、従来の位置 - 非表示）
 .app-name {
-  font-size: 1.5rem;
-  margin: 0 0 10px;
-  font-weight: bold;
-  color: #2c3e50;
+  display: none;
 }
 
 // アプリ説明
@@ -162,6 +161,9 @@ body {
   line-height: 1.6;
   margin-bottom: 20px;
   flex-grow: 1;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 // リンクリスト
