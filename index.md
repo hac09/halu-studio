@@ -9,6 +9,7 @@ layout: default
 <div class="app-grid">
 
 <div class="app-card">
+  <h3 class="app-name-top">TravelLogger</h3>
   <a href="https://apps.apple.com/app/travellogger/id6756373455" class="app-icon-link" target="_blank">
     <div class="app-icon">
       <img src="{{ '/assets/images/travellogger-icon.png' | relative_url }}" alt="TravelLogger">
@@ -22,10 +23,13 @@ layout: default
   </ul>
 </div>
 
-<div class="app-card">
-  <div class="app-icon">
-    <img src="{{ '/assets/images/dreaminsight-icon.png' | relative_url }}" alt="Dream Insight Pro">
-  </div>
+<div class="app-card app-card-hidden">
+  <h3 class="app-name-top">Dream Insight Pro</h3>
+  <a href="https://apps.apple.com/app/dream-insight-pro/id[APP_STORE_ID]" class="app-icon-link" target="_blank">
+    <div class="app-icon">
+      <img src="{{ '/assets/images/dreaminsight-icon.png' | relative_url }}" alt="Dream Insight Pro">
+    </div>
+  </a>
   <h3 class="app-name">Dream Insight Pro</h3>
   <p class="app-desc">AI技術と心理学理論を融合した夢分析＆メンタルケアアプリ</p>
   <ul class="app-links">
@@ -35,9 +39,12 @@ layout: default
 </div>
 
 <div class="app-card">
-  <div class="app-icon">
-    <img src="{{ '/assets/images/attendance-icon.png' | relative_url }}" alt="出退勤記録">
-  </div>
+  <h3 class="app-name-top">出退勤記録</h3>
+  <a href="https://apps.apple.com/app/id6756882518" class="app-icon-link" target="_blank">
+    <div class="app-icon">
+      <img src="{{ '/assets/images/attendance-icon.png' | relative_url }}" alt="出退勤記録">
+    </div>
+  </a>
   <h3 class="app-name">出退勤記録</h3>
   <p class="app-desc">シンプルで使いやすい出退勤管理アプリ</p>
   <ul class="app-links">
@@ -47,9 +54,12 @@ layout: default
 </div>
 
 <div class="app-card">
-  <div class="app-icon">
-    <img src="{{ '/assets/images/scanner-icon.png' | relative_url }}" alt="書類スキャナー">
-  </div>
+  <h3 class="app-name-top">書類スキャナー</h3>
+  <a href="https://apps.apple.com/app/id6757141066" class="app-icon-link" target="_blank">
+    <div class="app-icon">
+      <img src="{{ '/assets/images/scanner-icon.png' | relative_url }}" alt="書類スキャナー">
+    </div>
+  </a>
   <h3 class="app-name">書類スキャナー</h3>
   <p class="app-desc">カメラで撮影した書類をPDF化するスキャナーアプリ</p>
   <ul class="app-links">
@@ -59,9 +69,12 @@ layout: default
 </div>
 
 <div class="app-card">
-  <div class="app-icon">
-    <img src="{{ '/assets/images/divvy-icon.png' | relative_url }}" alt="割勘マスター">
-  </div>
+  <h3 class="app-name-top">割勘マスター</h3>
+  <a href="https://apps.apple.com/app/id6756515582" class="app-icon-link" target="_blank">
+    <div class="app-icon">
+      <img src="{{ '/assets/images/divvy-icon.png' | relative_url }}" alt="割勘マスター">
+    </div>
+  </a>
   <h3 class="app-name">割勘マスター</h3>
   <p class="app-desc">シンプルで使いやすい割勘計算アプリ</p>
   <ul class="app-links">

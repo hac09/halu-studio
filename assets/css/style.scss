@@ -97,16 +97,21 @@ body {
       color: white;
     }
   }
+
+  // 非公開アプリ（Dream Insight Pro）
+  &.app-card-hidden {
+    display: none;
+  }
 }
 
 // アプリアイコン
 .app-icon-link {
   display: block;
   text-decoration: none;
-  transition: transform 0.2s ease;
+  transition: transform 0.3s ease;
 
   &:hover {
-    transform: scale(1.05);
+    transform: scale(1.2);
   }
 }
 
@@ -124,16 +129,25 @@ body {
     border-radius: 22px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     object-fit: cover;
-    transition: box-shadow 0.2s ease;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
   }
 
   a:hover & img,
   .app-icon-link:hover & img {
-    box-shadow: 0 6px 15px rgba(52, 152, 219, 0.3);
+    box-shadow: 0 8px 20px rgba(52, 152, 219, 0.4);
+    transform: scale(1.1);
   }
 }
 
-// アプリ名
+// アプリ名（アイコンの上）
+.app-name-top {
+  font-size: 1.3rem;
+  margin: 0 0 15px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+// アプリ名（アイコンの下、従来の位置）
 .app-name {
   font-size: 1.5rem;
   margin: 0 0 10px;
@@ -200,3 +214,4 @@ body {
   margin-top: 3rem;
   border-top: 1px solid #eee;
 }
+
