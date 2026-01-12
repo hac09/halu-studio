@@ -23,9 +23,9 @@ layout: default
   </ul>
 </div>
 
-<div class="app-card app-card-hidden">
+<div class="app-card">
   <h3 class="app-name-top">Dream Insight Pro</h3>
-  <a href="https://apps.apple.com/app/dream-insight-pro/id[APP_STORE_ID]" class="app-icon-link" target="_blank">
+  <a href="https://apps.apple.com/app/id6757266710" class="app-icon-link" target="_blank">
     <div class="app-icon">
       <img src="{{ '/assets/images/dreaminsight-icon.png' | relative_url }}" alt="Dream Insight Pro">
     </div>
