@@ -13,6 +13,7 @@ layout: default
     <h2 data-i18n="attendance-about-title">アプリについて</h2>
     <p data-i18n="attendance-about-content">
       出退勤記録は、出退勤時刻を記録し、労働時間を管理するためのシンプルな勤怠管理アプリです。
+      多言語対応（日本語、英語、韓国語、中国語）で、世界各国のユーザーにご利用いただけます。
     </p>
   </section>
 
@@ -28,6 +29,33 @@ layout: default
       <li data-i18n="attendance-feature-7">日次・週次・月次の統計表示</li>
       <li data-i18n="attendance-feature-8">CSV/ZIPエクスポート</li>
       <li data-i18n="attendance-feature-9">カスタムボタンの作成</li>
+      <li data-i18n="attendance-feature-10">記録の編集機能（日時・位置情報の修正）</li>
+      <li data-i18n="attendance-feature-11">手動記録機能（過去の日時を指定して記録）</li>
+      <li data-i18n="attendance-feature-12">地域別労働法規設定（日本・韓国・グローバル）</li>
+      <li data-i18n="attendance-feature-13">韓国向け週52時間管理機能</li>
+      <li data-i18n="attendance-feature-14">広告削除機能（買い切り）</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 data-i18n="attendance-region-title">地域別機能</h2>
+    <h3 data-i18n="attendance-region-japan">日本</h3>
+    <ul>
+      <li data-i18n="attendance-region-japan-1">労働基準法に基づく休憩時間チェック（6時間超：45分、8時間超：60分）</li>
+      <li data-i18n="attendance-region-japan-2">自動休憩控除機能（デフォルトON）</li>
+    </ul>
+    
+    <h3 data-i18n="attendance-region-korea">韓国</h3>
+    <ul>
+      <li data-i18n="attendance-region-korea-1">週52時間労働制に対応</li>
+      <li data-i18n="attendance-region-korea-2">残り可能残業時間の表示</li>
+      <li data-i18n="attendance-region-korea-3">週52時間に近づくと警告表示</li>
+    </ul>
+    
+    <h3 data-i18n="attendance-region-global">グローバル / アメリカ</h3>
+    <ul>
+      <li data-i18n="attendance-region-global-1">FLSA基準に基づく労働時間管理</li>
+      <li data-i18n="attendance-region-global-2">休憩時間の打刻記録（自動控除なし）</li>
     </ul>
   </section>
 
@@ -58,6 +86,26 @@ layout: default
       <div class="faq-question" data-i18n="attendance-faq-q5">Q: データをバックアップしたい</div>
       <div class="faq-answer" data-i18n="attendance-faq-a5">エクスポート機能を使用してCSVファイルまたはZIPファイル（写真付き）として保存できます。「エクスポート」ボタンをタップし、期間を選択して「CSV作成」または「ZIP作成」をタップし、共有シートからファイルを保存してください。</div>
     </div>
+
+    <div class="faq-item">
+      <div class="faq-question" data-i18n="attendance-faq-q6">Q: 記録を編集したい</div>
+      <div class="faq-answer" data-i18n="attendance-faq-a6">記録詳細画面を開き、右上の「編集」ボタンをタップすると、日時と位置情報を編集できます。編集後は「保存」ボタンをタップしてください。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question" data-i18n="attendance-faq-q7">Q: 過去の日時に記録を追加したい</div>
+      <div class="faq-answer" data-i18n="attendance-faq-a7">記録ボタンを長押しすると「日時を指定して記録」が表示されます。これを選択すると、過去の日時を指定して記録を追加できます。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question" data-i18n="attendance-faq-q8">Q: 地域設定を変更したい</div>
+      <div class="faq-answer" data-i18n="attendance-faq-a8">設定画面 → 労働法規設定 → 地域選択から、日本・韓国・グローバルのいずれかを選択できます。地域に応じて労働時間の計算方法や休憩ルールが自動的に適用されます。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question" data-i18n="attendance-faq-q9">Q: 広告を削除したい</div>
+      <div class="faq-answer" data-i18n="attendance-faq-a9">設定画面 → アプリ内課金から「広告を削除」を購入すると、すべての広告が非表示になります。買い切り購入で、一度購入すると永続的に有効です。</div>
+    </div>
   </section>
 
   <section>
@@ -74,4 +122,3 @@ layout: default
 </div>
 
 <script src="/assets/js/i18n.js"></script>
-
