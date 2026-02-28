@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="support-page">
   <h1 data-i18n="support-title">サポートページ</h1>
-  
+
   <p data-i18n="support-intro" style="text-align: center; margin-bottom: 40px;">
     TravelLoggerをご利用いただきありがとうございます。
   </p>
@@ -21,11 +21,86 @@ layout: default
       <li data-i18n="feature-1">GPS位置情報による自動記録</li>
       <li data-i18n="feature-2">リアルタイム地図表示</li>
       <li data-i18n="feature-3">移動距離・時間・速度の計算</li>
-      <li data-i18n="feature-4">標高データの記録</li>
+      <li data-i18n="feature-4">標高データの記録（気圧センサー使用）</li>
       <li data-i18n="feature-5">記録カレンダー：月別の記録を視覚的に確認</li>
       <li data-i18n="feature-6">GPX/CSV/PDFエクスポート (Pro)</li>
       <li data-i18n="feature-7">GPXインポート (Pro)</li>
+      <li data-i18n="feature-8">ログ結合：複数の記録を1つに統合 (Pro)</li>
+      <li data-i18n="feature-9">📍 ウェイポイント（任意の地点にメモ追加）</li>
+      <li data-i18n="feature-10">📸 写真の記録（撮影地点を地図上に表示）</li>
+      <li data-i18n="feature-11">🎨 軌跡カラーのカスタマイズ</li>
+      <li data-i18n="feature-12">📱 バックグラウンド記録（アプリを閉じても継続）</li>
+      <li data-i18n="feature-13">🕐 自動保存・復元（中断時の記録を保護）</li>
+      <li data-i18n="feature-14">🌐 多言語対応（日本語・英語・中国語・韓国語）</li>
+      <li data-i18n="feature-15">📏 単位切り替え（km/mi）</li>
     </ul>
+  </section>
+
+  <section>
+    <h2 data-i18n="howto-title">基本的な使い方</h2>
+    <ol>
+      <li data-i18n="howto-1">アプリを起動し、ホーム画面の「記録開始」ボタンを押す</li>
+      <li data-i18n="howto-2">初回起動時は位置情報の許可を求められます。「常に許可」を選択してください（バックグラウンド記録に必要）</li>
+      <li data-i18n="howto-3">移動中は地図上にリアルタイムで軌跡が描かれます</li>
+      <li data-i18n="howto-4">記録を止める場合は「停止」ボタンを押し、タイトルを入力して保存</li>
+      <li data-i18n="howto-5">保存した記録は「記録一覧」または「カレンダー」から確認できます</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2 data-i18n="free-pro-title">無料版とPro版について</h2>
+    <table style="width: 100%; border-collapse: collapse; margin-top: 12px;">
+      <thead>
+        <tr>
+          <th style="border: 1px solid #ddd; padding: 8px;" data-i18n="table-feature">機能</th>
+          <th style="border: 1px solid #ddd; padding: 8px;" data-i18n="table-free">無料版</th>
+          <th style="border: 1px solid #ddd; padding: 8px;" data-i18n="table-pro">Pro版</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 8px;" data-i18n="table-row-gps">GPS記録・地図表示</td>
+          <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">✅</td>
+          <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">✅</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 8px;" data-i18n="table-row-photo">写真・ウェイポイント</td>
+          <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">✅</td>
+          <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">✅</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 8px;" data-i18n="table-row-calendar">カレンダー表示</td>
+          <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">✅</td>
+          <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">✅</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 8px;" data-i18n="table-row-bg">バックグラウンド記録</td>
+          <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">✅</td>
+          <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">✅</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 8px;" data-i18n="table-row-time">記録時間</td>
+          <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">最大6時間</td>
+          <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">無制限</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 8px;" data-i18n="table-row-ads">広告</td>
+          <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">あり</td>
+          <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">なし</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 8px;" data-i18n="table-row-export">GPX/CSV/PDFエクスポート</td>
+          <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">❌</td>
+          <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">✅</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ddd; padding: 8px;" data-i18n="table-row-import">GPXインポート・ログ結合</td>
+          <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">❌</td>
+          <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">✅</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="margin-top: 12px;" data-i18n="remove-ads-note">※「広告削除のみ」プランもあります。広告を非表示にしますが、記録は6時間まで・エクスポート機能はありません。</p>
   </section>
 
   <section>
@@ -55,18 +130,49 @@ layout: default
       <div class="faq-question" data-i18n="faq-q5">Q: GPXファイルをエクスポートできません</div>
       <div class="faq-answer" data-i18n="faq-a5">Pro版の機能です。Pro版を購入してください。</div>
     </div>
+
+    <div class="faq-item">
+      <div class="faq-question" data-i18n="faq-q6">Q: アプリを閉じると記録が止まります</div>
+      <div class="faq-answer" data-i18n="faq-a6">位置情報の権限を「常に許可」に設定してください。「使用中のみ」に設定されている場合、アプリを閉じると記録が停止します。設定アプリ → TravelLogger → 位置情報 → 「常に許可」</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question" data-i18n="faq-q7">Q: アプリが強制終了しました。記録は失われましたか？</div>
+      <div class="faq-answer" data-i18n="faq-a7">TravelLoggerは記録を自動保存しています。次回起動時に「復元可能な記録があります」というダイアログが表示されますので、「保存する」または「記録を再開」を選択してください。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question" data-i18n="faq-q8">Q: 複数の記録を1つにまとめたい</div>
+      <div class="faq-answer" data-i18n="faq-a8">Pro版のログ結合機能をご利用ください。記録一覧画面で「編集」→複数選択→「結合」ボタンを押すことで、複数の記録を1つに統合できます。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question" data-i18n="faq-q9">Q: 軌跡の色を変えたい</div>
+      <div class="faq-answer" data-i18n="faq-a9">設定アプリ内の「軌跡カラー」から好みの色を選択できます。記録ごとに個別に設定することも可能です（記録詳細画面 → 設定アイコン）。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question" data-i18n="faq-q10">Q: GPXファイルを他のアプリからインポートできますか？</div>
+      <div class="faq-answer" data-i18n="faq-a10">Pro版のGPXインポート機能をご利用ください。記録一覧画面の「インポート」ボタンからGPXファイルを選択して読み込めます。</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question" data-i18n="faq-q11">Q: 記録中も画面を点灯したままにしたい</div>
+      <div class="faq-answer" data-i18n="faq-a11">設定画面の「記録中の画面消灯」から「常時点灯」を選択できます。バッテリー消費が増えますのでご注意ください。</div>
+    </div>
   </section>
 
   <section>
     <p data-i18n="privacy-link">
-      プライバシーポリシーは<a href="/TravelLogger/">こちら</a>をご覧ください。
+      プライバシーポリシーは<a href="https://hac09.github.io/halu-studio/TravelLogger/">こちら</a>をご覧ください。
     </p>
   </section>
 
   <section>
     <h2 data-i18n="contact-title">お問い合わせ</h2>
-    <p data-i18n="contact-intro">ご質問やバグ報告は、以下のメールアドレスまでお願いします。</p>
+    <p data-i18n="contact-intro">ご質問やバグ報告は、以下のメールアドレスまたはGitHub Issuesまでお願いします。</p>
     <p><strong data-i18n="email-label">メールアドレス:</strong> halustudio09@gmail.com</p>
+    <p><strong>GitHub Issues:</strong> <a href="https://github.com/hac09/TravelLogger/issues" target="_blank">https://github.com/hac09/TravelLogger/issues</a></p>
     <p><strong data-i18n="developer-label">開発元:</strong> Halu Studio</p>
   </section>
 
