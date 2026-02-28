@@ -30,18 +30,26 @@ layout: default
       <li data-i18n="section-2-2-item-3">写真は端末内にのみ保存され、外部サーバーへの送信は一切行いません</li>
     </ul>
 
-    <h3 data-i18n="section-2-3">2.3 広告配信に必要な情報</h3>
+    <h3 data-i18n="section-2-3">2.3 モーションセンサー情報</h3>
     <ul>
-      <li data-i18n="section-2-3-item-1">広告識別子（IDFA）</li>
-      <li data-i18n="section-2-3-item-2">デバイス情報（機種・OSバージョン）</li>
-      <li data-i18n="section-2-3-item-3">アプリの利用状況</li>
+      <li data-i18n="section-2-3-item-1">気圧センサー（CMAltimeter）による高度データ</li>
+      <li data-i18n="section-2-3-item-2">モーションアクティビティ（CMMotionActivityManager）による移動手段の自動判定</li>
+      <li data-i18n="section-2-3-item-3">センサーデータは端末内にのみ保存され、外部サーバーへの送信は一切行いません</li>
     </ul>
 
-    <h3 data-i18n="section-2-4">2.4 アプリの利用状況</h3>
+    <h3 data-i18n="section-2-4">2.4 広告配信に必要な情報</h3>
     <ul>
-      <li data-i18n="section-2-4-item-1">記録されたログの数</li>
-      <li data-i18n="section-2-4-item-2">アプリの起動回数</li>
-      <li data-i18n="section-2-4-item-3">クラッシュレポート（不具合修正のため）</li>
+      <li data-i18n="section-2-4-item-1-new">広告識別子（IDFA）※App Tracking Transparency（ATT）フレームワークによる許可取得後に使用</li>
+      <li data-i18n="section-2-4-item-2-new">デバイス情報（機種・OSバージョン）</li>
+      <li data-i18n="section-2-4-item-3-new">アプリの利用状況</li>
+    </ul>
+
+    <h3 data-i18n="section-2-5">2.5 アプリの利用状況</h3>
+    <ul>
+      <li data-i18n="section-2-5-item-1">記録されたログの数</li>
+      <li data-i18n="section-2-5-item-2">アプリの起動回数</li>
+      <li data-i18n="section-2-5-item-3">クラッシュレポート（Firebase Crashlyticsにより収集・不具合修正のため）</li>
+      <li data-i18n="section-2-5-item-4">アプリ利用状況の統計（Firebase Analyticsにより匿名で収集・個人を特定しない情報のみ）</li>
     </ul>
   </section>
 
@@ -61,27 +69,44 @@ layout: default
       <li data-i18n="section-3-2-item-2">写真データは端末内にのみ保存されます</li>
     </ul>
 
-    <h3 data-i18n="section-3-3">3.3 広告表示</h3>
+    <h3 data-i18n="section-3-3">3.3 高度情報の記録</h3>
     <ul>
-      <li data-i18n="section-3-3-item-1">無料版では、Google AdMobを使用して広告を表示します</li>
-      <li data-i18n="section-3-3-item-2">広告配信のため、広告識別子やデバイス情報が使用されます</li>
+      <li data-i18n="section-3-3-item-1">気圧センサー（CMAltimeter）を使用して精度の高い高度データを記録します</li>
+      <li data-i18n="section-3-3-item-2">モーションアクティビティを使用して移動手段（車・徒歩等）を自動判定します</li>
+      <li data-i18n="section-3-3-item-3">センサーデータは端末内にのみ保存されます</li>
     </ul>
 
-    <h3 data-i18n="section-3-4">3.4 サービス改善</h3>
+    <h3 data-i18n="section-3-4">3.4 広告表示</h3>
     <ul>
-      <li data-i18n="section-3-4-item-1">アプリの利用状況やクラッシュレポートを分析し、サービスの改善に役立てます</li>
-      <li data-i18n="section-3-4-item-2">個人を特定できる情報は収集しません</li>
+      <li data-i18n="section-3-4-item-1">無料版では、Google AdMobを使用して広告を表示します</li>
+      <li data-i18n="section-3-4-item-2">広告識別子（IDFA）の使用はATT許可取得後のみ行われます</li>
+    </ul>
+
+    <h3 data-i18n="section-3-5">3.5 サービス改善</h3>
+    <ul>
+      <li data-i18n="section-3-5-item-1">Firebase AnalyticsおよびCrashlyticsにより、アプリの利用状況やクラッシュレポートを分析し、サービスの改善に役立てます</li>
+      <li data-i18n="section-3-5-item-2">個人を特定できる情報は収集しません</li>
     </ul>
   </section>
 
   <section>
     <h2 data-i18n="section-4">4. 第三者提供</h2>
-    <p data-i18n="section-4-intro">本アプリは、広告配信のために以下の第三者サービスを利用します。</p>
+    <p data-i18n="section-4-intro">本アプリは、広告配信およびサービス改善のために以下の第三者サービスを利用します。</p>
 
     <h3 data-i18n="section-4-1">4.1 Google AdMob</h3>
     <ul>
-      <li data-i18n="section-4-1-item-1">広告配信のために使用します</li>
+      <li data-i18n="section-4-1-item-1">無料版での広告配信のために使用します</li>
+      <li data-i18n="section-4-1-item-2">広告識別子（IDFA）の使用はApp Tracking Transparency（ATT）による許可取得後のみ行われます</li>
       <li>Google AdMobのプライバシーポリシー：<a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
+    </ul>
+
+    <h3 data-i18n="section-4-2">4.2 Firebase（Google LLC）</h3>
+    <ul>
+      <li data-i18n="section-4-2-item-1">Firebase Analytics：アプリの利用状況を匿名で収集し、サービス改善に使用します</li>
+      <li data-i18n="section-4-2-item-2">Firebase Crashlytics：クラッシュレポートを収集し、不具合修正に使用します</li>
+      <li data-i18n="section-4-2-item-2b">Firebase Performance：パフォーマンス計測により、アプリの動作改善に使用します</li>
+      <li data-i18n="section-4-2-item-3">収集するデータに個人を特定できる情報は含まれません</li>
+      <li>Firebaseのプライバシーポリシー：<a href="https://firebase.google.com/support/privacy" target="_blank">https://firebase.google.com/support/privacy</a></li>
     </ul>
 
     <p data-i18n="section-4-note">
