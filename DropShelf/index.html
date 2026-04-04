@@ -60,13 +60,18 @@ layout: default
 
     <h3>4.1 Firebase（Google LLC）</h3>
     <p>
-      本アプリには、Google が提供する <strong>Firebase</strong> が組み込まれています。アプリ起動時などに Firebase が初期化され、<strong>アプリの識別や動作環境に関する技術的な情報</strong>が Google のサーバーで処理されることがあります。
-      これは、<strong>突然の不具合（クラッシュ）の原因調査</strong>や、<strong>使い勝手の改善</strong>などに役立てるためです。
+      本アプリには、Google が提供する <strong>Firebase</strong> が組み込まれています。具体的には次の機能を利用しています。
     </p>
     <ul>
-      <li>Firebase がどのようなデータを扱うかは、<a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase のプライバシーとセキュリティ</a>および <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google のプライバシーポリシー</a>に従います。</li>
+      <li><strong>Firebase Crashlytics（クラッシュリティクス）</strong>：アプリが予期せず終了したときに、<strong>どのような状況で止まったか</strong>を技術的な記録として送り、原因調査・修正に使います。</li>
+      <li><strong>Firebase Analytics（アナリティクス）</strong>：<strong>どの画面や機能がどの程度使われているか</strong>などを、個人を特定しない形で集計し、改善の参考にします。開発用ビルドでは送信を抑止する設定にしています。</li>
+    </ul>
+    <p>
+      いずれも <strong>アプリの識別や OS のバージョンなど、動作環境に関する情報</strong>が Google のサーバーで処理されることがあります。詳細は <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase のプライバシーとセキュリティ</a>および <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google のプライバシーポリシー</a>をご覧ください。
+    </p>
+    <ul>
       <li>本アプリを通じて、<strong>あなたの氏名・メールアドレス・棚に載せたファイルの中身を、開発元が Firebase 経由で収集して閲覧する</strong>ことは行いません。</li>
-      <li>機能追加により、クラッシュレポートや利用状況の集計（個人を特定しない形）を Firebase で扱う場合があります。その際は本ポリシーを更新します。</li>
+      <li>Firebase の利用内容を変更する場合は、本ページを更新します。</li>
     </ul>
 
     <h3>4.2 Apple（App Store・課金）</h3>
