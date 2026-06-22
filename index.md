@@ -9,6 +9,21 @@ layout: default
 <div class="app-grid">
 
 <div class="app-card">
+  <h3 class="app-name-top">ここおる</h3>
+  <a href="https://apps.apple.com/jp/app/id6758395458" class="app-icon-link" target="_blank">
+    <div class="app-icon">
+      <img src="{{ '/assets/images/cocoiru-icon.png' | relative_url }}" alt="ここおる">
+    </div>
+  </a>
+  <h3 class="app-name">ここおる</h3>
+  <p class="app-desc">離れた家族の安否をボタンひとつで確認できる見守りアプリ</p>
+  <ul class="app-links">
+    <li><a href="./privacy.html" class="app-link">プライバシーポリシー</a></li>
+    <li><a href="./CocoIru/support" class="app-link">サポート</a></li>
+  </ul>
+</div>
+
+<div class="app-card">
   <h3 class="app-name-top">TravelLogger</h3>
   <a href="https://apps.apple.com/app/travellogger/id6756373455" class="app-icon-link" target="_blank">
     <div class="app-icon">
