@@ -24,21 +24,6 @@ layout: default
 </div>
 
 <div class="app-card">
-  <h3 class="app-name-top">Dream Insight Pro</h3>
-  <a href="https://apps.apple.com/app/id6757266710" class="app-icon-link" target="_blank">
-    <div class="app-icon">
-      <img src="{{ '/assets/images/dreaminsight-icon.png' | relative_url }}" alt="Dream Insight Pro">
-    </div>
-  </a>
-  <h3 class="app-name">Dream Insight Pro</h3>
-  <p class="app-desc">AI技術と心理学理論を融合した夢分析＆メンタルケアアプリ</p>
-  <ul class="app-links">
-    <li><a href="./DreamInsightPro/" class="app-link">プライバシーポリシー</a></li>
-    <li><a href="./DreamInsightPro/support" class="app-link">サポート</a></li>
-  </ul>
-</div>
-
-<div class="app-card">
   <h3 class="app-name-top">出退勤記録</h3>
   <a href="https://apps.apple.com/app/id6756882518" class="app-icon-link" target="_blank">
     <div class="app-icon">
