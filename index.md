@@ -21,7 +21,7 @@ layout: default
 
 <div class="app-card">
   <h3 class="app-name-top">TravelLogger</h3>
-  <a href="https://apps.apple.com/app/travellogger/id6756373455" class="app-icon-link" target="_blank">
+  <a href="https://apps.apple.com/jp/app/id6756373455" class="app-icon-link" target="_blank">
     <div class="app-icon">
       <img src="{{ '/assets/images/travellogger-icon.png' | relative_url }}" alt="TravelLogger">
     </div>
@@ -32,7 +32,7 @@ layout: default
 
 <div class="app-card">
   <h3 class="app-name-top">出退勤記録</h3>
-  <a href="https://apps.apple.com/app/id6756882518" class="app-icon-link" target="_blank">
+  <a href="https://apps.apple.com/jp/app/id6756882518" class="app-icon-link" target="_blank">
     <div class="app-icon">
       <img src="{{ '/assets/images/attendance-icon.png' | relative_url }}" alt="出退勤記録">
     </div>
@@ -43,7 +43,7 @@ layout: default
 
 <div class="app-card">
   <h3 class="app-name-top">書類スキャナー</h3>
-  <a href="https://apps.apple.com/app/id6757141066" class="app-icon-link" target="_blank">
+  <a href="https://apps.apple.com/jp/app/id6757141066" class="app-icon-link" target="_blank">
     <div class="app-icon">
       <img src="{{ '/assets/images/scanner-icon.png' | relative_url }}" alt="書類スキャナー">
     </div>
@@ -54,7 +54,7 @@ layout: default
 
 <div class="app-card">
   <h3 class="app-name-top">割勘マスター</h3>
-  <a href="https://apps.apple.com/app/id6756515582" class="app-icon-link" target="_blank">
+  <a href="https://apps.apple.com/jp/app/id6756515582" class="app-icon-link" target="_blank">
     <div class="app-icon">
       <img src="{{ '/assets/images/divvy-icon.png' | relative_url }}" alt="割勘マスター">
     </div>
