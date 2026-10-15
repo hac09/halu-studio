@@ -66,5 +66,5 @@ layout: default
 </div>
 
 <p class="legal-links" style="text-align: center; margin-top: 48px;">
-  <a href="./privacy.html">プライバシーポリシー</a>　・　<a href="./terms.html">利用規約</a>
+  <a href="./privacy.html">プライバシーポリシー</a>　・　<a href="./terms.html">利用規約</a>　・　<a href="./tokushoho.html">特定商取引法に基づく表記</a>
 </p>
