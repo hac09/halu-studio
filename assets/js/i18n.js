@@ -463,7 +463,7 @@ const translations = {
         
         // Privacy Policy (shared)
         'privacy-h1': 'プライバシーポリシー',
-        'privacy-updated': '最終更新日：2026年7月4日',
+        'privacy-updated': '最終更新日：2026年10月21日',
         'privacy-s1-heading': '1. はじめに',
         'privacy-s1-intro': 'halu Studio（以下「当方」）は、当方が開発・提供するすべてのアプリケーション（以下「本アプリ」）において、ユーザーのプライバシーを尊重し、個人情報の適切な保護に努めています。本ポリシーは、当方のすべてのアプリに共通して適用されます。',
         'privacy-s1-app-label': '対象アプリ：',
@@ -541,7 +541,7 @@ const translations = {
 
         // Terms of Service (shared)
         'terms-h1': '利用規約',
-        'terms-updated': '最終更新日：2026年7月4日',
+        'terms-updated': '最終更新日：2026年10月21日',
         'terms-s1-heading': '1. はじめに',
         'terms-s1-intro': '本利用規約（以下「本規約」）は、halu Studio（以下「当方」）が提供するすべてのアプリケーション（以下「本アプリ」）の利用条件を定めるものです。本アプリをダウンロード・インストールした時点で、本規約に同意したものとみなします。',
         'terms-s1-app-label': '対象アプリ：',
@@ -1067,7 +1067,7 @@ const translations = {
         
         // Privacy Policy (shared)
         'privacy-h1': 'Privacy Policy',
-        'privacy-updated': 'Last Updated: July 4, 2026',
+        'privacy-updated': 'Last Updated: October 21, 2026',
         'privacy-s1-heading': '1. Introduction',
         'privacy-s1-intro': 'halu Studio ("we" or "us") is committed to protecting the privacy of users of all applications ("Apps") we develop and provide. This policy applies to all halu Studio apps.',
         'privacy-s1-app-label': 'Applicable apps:',
@@ -1145,7 +1145,7 @@ const translations = {
 
         // Terms of Service (shared)
         'terms-h1': 'Terms of Service',
-        'terms-updated': 'Last Updated: July 4, 2026',
+        'terms-updated': 'Last Updated: October 21, 2026',
         'terms-s1-heading': '1. Introduction',
         'terms-s1-intro': 'These Terms of Service ("Terms") govern your use of all applications ("Apps") provided by halu Studio ("we" or "us"). By downloading or installing an App, you agree to these Terms.',
         'terms-s1-app-label': 'Applicable apps:',
@@ -1661,7 +1661,7 @@ const translations = {
         
         // Privacy Policy (shared)
         'privacy-h1': '개인정보 처리방침',
-        'privacy-updated': '최종 업데이트: 2026년 7월 4일',
+        'privacy-updated': '최종 업데이트: 2026년 10월 21일',
         'privacy-s1-heading': '1. 소개',
         'privacy-s1-intro': 'halu Studio(이하 "당사")는 당사가 개발·제공하는 모든 애플리케이션(이하 "앱")에서 이용자의 개인정보를 존중하고 적절히 보호하기 위해 노력합니다. 본 방침은 당사의 모든 앱에 공통으로 적용됩니다.',
         'privacy-s1-app-label': '대상 앱:',
@@ -1739,7 +1739,7 @@ const translations = {
 
         // Terms of Service (shared)
         'terms-h1': '이용약관',
-        'terms-updated': '최종 업데이트: 2026년 7월 4일',
+        'terms-updated': '최종 업데이트: 2026년 10월 21일',
         'terms-s1-heading': '1. 소개',
         'terms-s1-intro': '본 이용약관(이하 "약관")은 halu Studio(이하 "당사")가 제공하는 모든 애플리케이션(이하 "앱")의 이용 조건을 정합니다. 앱을 다운로드·설치한 시점에 본 약관에 동의한 것으로 간주합니다.',
         'terms-s1-app-label': '대상 앱:',
@@ -2255,7 +2255,7 @@ const translations = {
         
         // Privacy Policy (shared)
         'privacy-h1': '隐私政策',
-        'privacy-updated': '最后更新：2026年7月4日',
+        'privacy-updated': '最后更新：2026年10月21日',
         'privacy-s1-heading': '1. 概述',
         'privacy-s1-intro': 'halu Studio（以下简称"我们"）在开发和提供的所有应用程序（以下简称"本应用"）中，尊重用户隐私并致力于妥善保护个人信息。本政策适用于我们的所有应用。',
         'privacy-s1-app-label': '适用应用：',
@@ -2333,7 +2333,7 @@ const translations = {
 
         // Terms of Service (shared)
         'terms-h1': '服务条款',
-        'terms-updated': '最后更新：2026年7月4日',
+        'terms-updated': '最后更新：2026年10月21日',
         'terms-s1-heading': '1. 概述',
         'terms-s1-intro': '本服务条款（以下简称"本条款"）规定了 halu Studio（以下简称"我们"）提供的所有应用程序（以下简称"本应用"）的使用条件。下载或安装本应用即表示您同意本条款。',
         'terms-s1-app-label': '适用应用：',
