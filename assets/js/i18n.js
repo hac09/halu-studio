@@ -463,7 +463,7 @@ const translations = {
         
         // Privacy Policy (shared)
         'privacy-h1': 'プライバシーポリシー',
-        'privacy-updated': '最終更新日：2026年10月21日',
+        'privacy-updated': '最終更新日：2026年10月30日',
         'privacy-s1-heading': '1. はじめに',
         'privacy-s1-intro': 'halu Studio（以下「当方」）は、当方が開発・提供するすべてのアプリケーション（以下「本アプリ」）において、ユーザーのプライバシーを尊重し、個人情報の適切な保護に努めています。本ポリシーは、当方のすべてのアプリに共通して適用されます。',
         'privacy-s1-app-label': '対象アプリ：',
@@ -1067,7 +1067,7 @@ const translations = {
         
         // Privacy Policy (shared)
         'privacy-h1': 'Privacy Policy',
-        'privacy-updated': 'Last Updated: October 21, 2026',
+        'privacy-updated': 'Last Updated: October 30, 2026',
         'privacy-s1-heading': '1. Introduction',
         'privacy-s1-intro': 'halu Studio ("we" or "us") is committed to protecting the privacy of users of all applications ("Apps") we develop and provide. This policy applies to all halu Studio apps.',
         'privacy-s1-app-label': 'Applicable apps:',
@@ -1661,7 +1661,7 @@ const translations = {
         
         // Privacy Policy (shared)
         'privacy-h1': '개인정보 처리방침',
-        'privacy-updated': '최종 업데이트: 2026년 10월 21일',
+        'privacy-updated': '최종 업데이트: 2026년 10월 30일',
         'privacy-s1-heading': '1. 소개',
         'privacy-s1-intro': 'halu Studio(이하 "당사")는 당사가 개발·제공하는 모든 애플리케이션(이하 "앱")에서 이용자의 개인정보를 존중하고 적절히 보호하기 위해 노력합니다. 본 방침은 당사의 모든 앱에 공통으로 적용됩니다.',
         'privacy-s1-app-label': '대상 앱:',
@@ -2255,7 +2255,7 @@ const translations = {
         
         // Privacy Policy (shared)
         'privacy-h1': '隐私政策',
-        'privacy-updated': '最后更新：2026年10月21日',
+        'privacy-updated': '最后更新：2026年10月30日',
         'privacy-s1-heading': '1. 概述',
         'privacy-s1-intro': 'halu Studio（以下简称"我们"）在开发和提供的所有应用程序（以下简称"本应用"）中，尊重用户隐私并致力于妥善保护个人信息。本政策适用于我们的所有应用。',
         'privacy-s1-app-label': '适用应用：',
@@ -2849,7 +2849,7 @@ const translations = {
         
         // Privacy Policy (shared)
         'privacy-h1': '隱私權政策',
-        'privacy-updated': '最後更新：2026年7月4日',
+        'privacy-updated': '最後更新：2026年10月30日',
         'privacy-s1-heading': '1. 概述',
         'privacy-s1-intro': 'halu Studio（以下簡稱「我們」）在開發及提供的所有應用程式（以下簡稱「本應用」）中，尊重使用者隱私並致力於妥善保護個人資訊。本政策適用於我們所有的應用程式。',
         'privacy-s1-app-label': '適用應用程式：',
